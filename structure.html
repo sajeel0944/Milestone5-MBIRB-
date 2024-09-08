@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBIRB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> <span id="element"></span> </h1>
+
+    <form id="resumeform">
+        <fieldset class="fieldset2">
+            <legend>PERSONAL INFORMATION</legend>
+
+            
+            <!-- <legend for="user">Resuse URL:</legend>
+            <input type="text" id="username" name="username" required>  -->
+
+            <legend for="name">FRIST NAME:</legend>
+            <input type="text" id="name" name="name" required> 
+
+            <legend for="lastname">LAST NAME:</legend>
+            <input type="text" id="lastname" name="lastname" required> 
+
+            <legend for="email">EMAIL:</legend>
+            <input type="email" id="email" name="email" required> <br>
+
+            <legend for="phone">PHONE NUMBER:</legend>
+            <input type="tel" id="phone" name="phone" required> 
+
+            <legend for="profilepicture">PROFILE PICTURE:</legend>
+            <input type="file" id="profilepicture" name="profilepicture" accept="image/*" required> 
+
+            <legend for="user">Resuse URL:</legend>
+            <input type="text" id="username" name="username" required> 
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>EDUCATION</legend> <br>
+            <label for="education">Education</label>
+            <textarea id="education" name="education" rows="4" required> </textarea> <br>
+            
+        </fieldset>
+
+
+        <fieldset>
+            <legend>WORD EXPERIENCE</legend> <br>
+            <label for="experience">Word Experience</label>
+            <textarea id="experience" name="experience" rows="4" required> </textarea> <br>
+            
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>SKILLS</legend> <br>
+            <label for="skills">Skills</label>
+            <textarea id="skills" name="skills" rows="4" required> </textarea> <br>
+            
+        </fieldset>
+
+
+        <button type="submit">Generate Resume Below</button>
+
+
+
+    </form>
+
+    <div id="resumeoutput">
+        <!-- show result -->
+    </div>
+    
+    <script src="main.js"></script>
+
+    <!-- ye <h1 main kaam kar raha hai> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Milestone-Based Interactive', ' Resume Builder by','sajeel ullah khan'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>

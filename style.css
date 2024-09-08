@@ -1,0 +1,254 @@
+body
+{
+    /* background-color: rgb(27, 1, 51); */
+    background-image: url(https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg?t=st=1725732923~exp=1725736523~hmac=12dc3ed95a7ac4b70c3b8101e3531a4aadd7cde474c1ea4525e300364edf7a28&w=740);
+   
+}
+
+
+#resumeform
+{
+    border: 2px solid black;
+    width: 800px;
+    /* change */
+    height:1499px;
+    position: relative;
+    left: 300px;
+    background-color: rgb(216, 248, 237);
+    animation: change 10s infinite ease-in-out;
+    border-radius: 10px;
+
+}
+
+ @keyframes change{
+    0%
+    {
+        color: darkgoldenrod;
+
+    }
+    20%
+    {
+        background-color:darkslateblue;
+        
+    }
+    40%
+    {
+        background-color: rgb(90, 90, 90);
+    }
+    60%
+    {
+        background-color:rgb(84, 4, 160);
+    }
+    80%
+    {
+        background-color:crimson;
+    }
+    100%
+    {
+        background-color: rgb(6, 6, 63);
+
+    }
+  
+}
+
+h1
+{
+    /* border: 2px solid white; */
+    width: 800px;
+    position: relative;
+    left: 300px;
+    text-align: center;
+    color: rgb(124, 7, 233);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+fieldset
+{
+    border: 3px solid rgb(20, 228, 217);
+    /* chnage */
+    height: 240px;                         
+    margin-top: 40px;
+    background-color: rgb(202, 232, 252);
+    border-radius: 10px;
+
+    /* box-shadow: -10px -10px 50px -10px  rgb(202, 232, 252); */
+}
+
+.fieldset2
+{
+    border: 3px solid rgb(20, 228, 217);
+    /* chnage */
+    height: 370px;                         
+    margin-top: 40px;
+    background-color: rgb(202, 232, 252);
+    border-radius: 10px;
+
+}
+
+legend
+{
+    /* border: 2px solid rgb(176, 189, 187); */
+    color: black;
+    margin-top: 15px;
+}
+
+input
+{
+    /* border: 2px solid rgb(14, 22, 19); */
+    width: 750px;
+    height: 20px;
+}
+
+#education
+{
+    width: 750px;
+    height: 140px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+#experience
+{
+    width: 750px;
+    height: 140px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+#skills
+{
+    width: 750px;
+    height: 140px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button
+{
+    /* border: 2px solid brown; */
+    width: 200px;
+    height: 85px;
+    margin-top: 40px;
+    margin-left: 270px;
+    font-size: larger;
+
+}
+
+button:hover{
+    background-color: blue;
+    color: rgb(36, 2, 68);
+
+}
+
+#resumeoutput
+{
+    width: 770px;
+    padding: 20px;
+    border: 2px solid rgb(187, 20, 20);
+    border-radius: 10px;
+    background-color: rgb(180, 253, 253);
+    margin-top: 60px;
+    position: relative;
+    left: 300px;
+}
+
+#resumeoutput h2
+{
+    color: rgb(0, 0, 0);
+    margin-bottom: -140px;
+    margin-top: -10px;
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#resumeoutput p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#resumeoutput .profilepicture
+{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    position: relative;
+    left: 595px;
+    top: 130px;
+}
+
+@media screen and (max-width:600px){
+
+    h1
+    {
+        position: relative;
+        left: 0px;
+        width: 500px;
+      }
+
+    
+#resumeform
+{
+    position: relative;
+    left: 0px;
+    width: 500px;
+}
+
+fieldset
+{
+    height: 210px;
+    margin-top: 40px;
+}
+
+legend
+{
+    margin-top: 15px;
+}
+
+input
+{
+    width: 450px;
+    height: 20px;
+}
+
+#education
+{
+    width: 450px;
+    height: 140px;
+    margin-top: 20px;
+}
+
+
+#experience
+{
+    width: 450px;
+    height: 140px;
+    margin-top: 20px;
+}
+
+
+#skills
+{
+    width: 450px;
+    height: 140px;
+    margin-top: 20px;
+}
+
+button
+{
+    width: 200px;
+    height: 85px;
+    margin-top: 40px;
+    margin-left: 170px;
+
+}
+
+
+}
